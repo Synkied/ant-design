@@ -192,7 +192,7 @@ pnpm --package=@ant-design/codemod-v5 dlx antd5-codemod src
 
 ### less migration
 
-If you using antd less variables, you can use compatible package to covert it into v4 less variables and use less-loader to inject them:
+If you are using antd less variables, you can use compatible package to convert it into v4 less variables and use less-loader to inject them:
 
 ```js
 const { theme } = require('antd/lib');
@@ -215,7 +215,7 @@ module.exports = {
 };
 ```
 
-Ant then remove antd less reference in your less file:
+And then remove antd less reference in your less file:
 
 ```diff
 // Your less file
